@@ -8,15 +8,16 @@ module.exports = function(req, res) {
 
   const fone = String(req.body.phone).replace(/[^\d]/g, '');
   const phone = "+" + fone
-  
+
   admin.auth().getUser(phone)
     .then(userRecord => {
       const code = Math.floor((Math.random() * 8999 + 1000));
 
       twilio.messages.create({
-        body: 'Your code is ' + code + ". Thankyou from Oxair",
+        body: 'Your code is ' + code,
         to: phone,
-        from: '+12564742850'
+        // Enter twilio phone number in quotes below
+        from: ''
       }, (err) => {
         if (err) { res.status(422).send(err); }
         admin.database().ref('users/' + phone)

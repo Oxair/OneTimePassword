@@ -2,7 +2,8 @@ const admin = require('firebase-admin');
 
 module.exports = function(req, res) {
     if (!req.body.phone || !req.body.code){
-        res.status(422).send({ error: "Phone and code must be provided." })
+        return res.status(422).send({ error: "Phone and code must be provided." })
+    }
 
         const fone = String(req.body.phone).replace(/[^\d]/g, "")
         const phone = "+" + fone
@@ -15,7 +16,7 @@ module.exports = function(req, res) {
                 ref.off()
                 const user = snapshot.val();
 
-                if(user.code !== code || !user.codeValid) {
+                if (user.code !== code || !user.codeValid) {
                     return res.status(422).send({ err: "Code is not valid!" })
                 }
 
@@ -30,5 +31,4 @@ module.exports = function(req, res) {
         })
         .catch((err) => res.status(422).send({ error: err }))
 
-    }
 }
