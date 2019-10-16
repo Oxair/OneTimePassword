@@ -35,7 +35,7 @@ https://LINK/createUser
 }
 
 <details>
-![picture alt](https://i.imgur.com/XU0pNcF.png)
+!(https://i.imgur.com/XU0pNcF.png)
 </details>
 
 
