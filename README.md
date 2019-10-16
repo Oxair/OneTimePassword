@@ -35,7 +35,7 @@ https://LINK/createUser
 }
 
 <details>
-	Markup : ![picture alt](https://i.imgur.com/XU0pNcF.png)
+![picture alt](https://i.imgur.com/XU0pNcF.png)
 </details>
 
 
