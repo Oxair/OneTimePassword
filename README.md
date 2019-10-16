@@ -50,7 +50,7 @@ https://LINK/verifyOneTimePassword
 ```
 {
 	"phone" : "+------------", // Your number
-  "code" : ----  // Code you received
+	"code" : ----  // Code you received
 }
 ```
 ![Screenshot](https://i.imgur.com/NBwEH1R.png)
