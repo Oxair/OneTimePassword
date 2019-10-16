@@ -34,9 +34,7 @@ https://LINK/createUser
 	"phone" : "+------------" // Your number
 }
 
-<details>
 ![Screenshot](https://i.imgur.com/XU0pNcF.png)
-</details>
 
 
 https://LINK/requestOneTimePassword
