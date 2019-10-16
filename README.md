@@ -18,3 +18,23 @@ functions/request_otp.js
 ## Add your twilio sid and token
 on Line 3 :
 functions/twilio.js
+
+
+## Testing
+
+https://LINK/createUser
+{
+	"phone" : "+------------" // Your number
+}
+
+https://LINK/requestOneTimePassword
+{
+	"phone" : "+------------" // Your number
+}
+
+https://LINK/verifyOneTimePassword
+{
+	"phone" : "+------------", // Your number
+  "code" : ----  // Code you received
+}
+
