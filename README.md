@@ -29,25 +29,29 @@ functions/twilio.js
 ## Testing
 
 https://LINK/createUser
-
+```
 {
 	"phone" : "+------------" // Your number
 }
-
+```
 ![Screenshot](https://i.imgur.com/XU0pNcF.png)
 
 
 https://LINK/requestOneTimePassword
-
+```
 {
 	"phone" : "+------------" // Your number
 }
+```
+![Screenshot](https://i.imgur.com/WqzEd1A.png)
 
 
 https://LINK/verifyOneTimePassword
-
+```
 {
 	"phone" : "+------------", // Your number
   "code" : ----  // Code you received
 }
+```
+![Screenshot](https://i.imgur.com/NBwEH1R.png)
 
