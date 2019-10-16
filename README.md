@@ -34,8 +34,7 @@ https://LINK/createUser
 	"phone" : "+------------" // Your number
 }
 
-!(https://i.imgur.com/XU0pNcF.png)
-
+![Screenshot](https://i.imgur.com/XU0pNcF.png)
 
 
 
