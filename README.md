@@ -1,5 +1,4 @@
-# locationBased
-React Native, Firebase, Twilio
+# locationBased : React Native, Firebase, Twilio
 
 
 ## Enter the database URL
