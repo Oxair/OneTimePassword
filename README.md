@@ -34,6 +34,12 @@ https://LINK/createUser
 	"phone" : "+------------" // Your number
 }
 
+<details>
+	Markup : ![picture alt](https://i.imgur.com/XU0pNcF.png)
+</details>
+
+
+
 
 https://LINK/requestOneTimePassword
 
