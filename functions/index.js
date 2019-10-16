@@ -7,7 +7,8 @@ const verifyOneTimePassword = require('./verify_otp')
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://signupsignin-b9282.firebaseio.com"
+    // Add your firebase database url below
+    databaseURL: ""
   });
 
  exports.createUser = functions.https.onRequest(createUser)
